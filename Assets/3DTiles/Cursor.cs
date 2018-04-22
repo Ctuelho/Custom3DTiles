@@ -8,6 +8,8 @@ public class Cursor : MonoBehaviour {
 
     public bool prefabsLoaded = false;
 
+    public LayerMask gridMask;
+
     public void LoadPrefabs()
     {
         if (!prefabsLoaded)
